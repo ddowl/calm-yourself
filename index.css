@@ -1,0 +1,22 @@
+.fancy {
+  font-family: cursive;
+}
+
+.big-text {
+  font-size: 20vw;
+}
+
+.fade-in {
+  animation: fadein 10s
+}
+
+.full-screen-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
